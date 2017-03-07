@@ -1,0 +1,36 @@
+# show history of commits 
+$ git log --oneline --decorate 
+
+# list local branches 
+$ git branch 
+
+# list remote branches 
+$ git branch --remote 
+
+# view changes in the working tree 
+# not yet staged $
+git diff <file>
+
+# view the changes between 
+# the index and the last commit 
+$ git diff --cached <file> 
+
+# view the changes in the working 
+# tree since the last commit 
+$ git diff HEAD <file> 
+
+# view changes between 
+# two commits 
+$ git diff <commit1> <commit2> <file> 
+
+# undo unstaged changes 
+$ git checkout <file> 
+
+# unstage changes 
+$ git reset HEAD <file> 
+
+# undo committed change 
+$ git revert <commit> --no-edit 
+
+# apply tag to a version 
+$ git tag -a <tag> <commit> -m <comment>
