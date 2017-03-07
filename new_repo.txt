@@ -1,0 +1,19 @@
+# clone a GitHub repository 
+$ git clone < URL > 
+
+# check working directory changes 
+$ git status 
+
+# add changes to index 
+$ git add < folder > 
+$ git add < file > 
+
+# commit a new version 
+$ git commit -m < comment > 
+
+# identify remote repository 
+$ git remote 
+$ git remote show < repo name > 
+
+# push new version to GitHub 
+$ git push origin master
